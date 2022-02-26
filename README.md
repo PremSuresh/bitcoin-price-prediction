@@ -1,1 +1,2 @@
-# bitcoin-price-prediction
+# bitcoin-price-prediction:
+The project attempts to predict the future value of Bitcoins by identifying the correlation between social media sentiment and past market prices of Bitcoin. We can achieve this by collecting user feeds from social media such as twitter, facebook and linkedin. We gather the real-time Bitcoin prices using the coinmarketcap API.  For our specific example we use twitter data extracted from the twitter API.  Once we have our corpus we will map their associated sentiments using the TextBlob python package. I use these as feature vectors to our DL algorithm. Then we compare the results of the different algorithms and choose the one with the best accuracy score.
