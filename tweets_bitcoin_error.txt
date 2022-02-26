@@ -1,0 +1,4 @@
+Error: ['  File "<ipython-input-2-38600e9307b5>", line 40, in on_data\n    tweet_text = tweet[\'text\']\n']
+
+Tweet Info: {'limit': {'track': 34, 'timestamp_ms': '1567483559731'}}
+--------------------------
